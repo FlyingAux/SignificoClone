@@ -138,7 +138,6 @@ function bodyColorChange(){
         trigger: e,
         start: 'top 50%',
         end: 'bottom 50%',
-        markers: true,
         onEnter: function(){
             document.body.setAttribute('theme',e.dataset.color);
         },
